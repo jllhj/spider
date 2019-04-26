@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0aea729-73a1-4305-8be0-02089b89b495" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/requests+正则爬猫眼电影top100.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/使用代理处理反爬微信文章.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/蔡徐坤.py" beforeDir="false" afterPath="$PROJECT_DIR$/蔡徐坤.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,9 +12,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/$.coverage" NAME="蔡徐坤 Coverage Results" MODIFIED="1555868470269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$.coverage" NAME="使用代理处理反爬微信文章 Coverage Results" MODIFIED="1556273073368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/$githua.coverage" NAME="githua Coverage Results" MODIFIED="1555580313739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/$requests_top100.coverage" NAME="requests+正则爬猫眼电影top100 Coverage Results" MODIFIED="1556105449578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$11.coverage" NAME="11 Coverage Results" MODIFIED="1556277744773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -35,26 +35,27 @@
     <session id="-1566233614">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="20" />
+          <entry key="project.closed" value="22" />
           <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.27" value="2" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.35" value="2" />
           <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.59" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="21" />
+          <entry key="project.opened" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="jpg" value="11" />
-          <entry key="py" value="13" />
+          <entry key="py" value="17" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
@@ -62,17 +63,19 @@
         <counts>
           <entry key="Image" value="11" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="13" />
+          <entry key="Python" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="4102" />
+          <entry key="py" value="6425" />
+          <entry key="txt" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="4102" />
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="Python" value="6425" />
         </counts>
       </usages-collector>
     </session>
@@ -82,7 +85,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/拉钩网.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
+            <state relative-caret-position="209">
               <caret line="12" column="67" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -91,25 +94,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/requests+正则爬猫眼电影top100.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="39" column="14" lean-forward="true" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+            <state relative-caret-position="183">
+              <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
                 <marker date="1556105449530" expanded="true" signature="152:161" ph="..." />
-                <marker date="1556105449530" expanded="true" signature="911:1012" ph="..." />
-                <marker date="1556105449530" expanded="true" signature="1029:1034" ph="..." />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/result.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1596" />
           </provider>
         </entry>
       </file>
@@ -125,23 +119,42 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/爬虫.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/使用代理处理反爬微信文章.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="-1880">
+              <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1556278131274" expanded="true" signature="1515:1715" ph="..." />
+                <marker date="1556278131274" expanded="true" signature="2161:2819" ph="..." />
+                <marker date="1556278131274" expanded="true" signature="2847:2848" ph="..." />
+                <marker date="1556278131274" expanded="true" signature="2847:2852" ph="..." />
+                <marker date="1556278131274" expanded="true" signature="3062:4204" ph="..." />
+                <marker date="1556278131274" expanded="true" signature="4215:4673" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/githua.py">
+        <entry file="file://$PROJECT_DIR$/11.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+            <state relative-caret-position="114">
+              <caret line="6" selection-start-line="6" selection-end-line="8" selection-end-column="20" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1556277726600" expanded="true" signature="1365:1815" ph="..." />
+                <marker date="1556277726600" expanded="true" signature="2867:3039" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/爬虫.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-260">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -174,6 +187,8 @@
         <option value="$PROJECT_DIR$/蔡徐坤.py" />
         <option value="$PROJECT_DIR$/result.txt" />
         <option value="$PROJECT_DIR$/requests+正则爬猫眼电影top100.py" />
+        <option value="$PROJECT_DIR$/11.py" />
+        <option value="$PROJECT_DIR$/使用代理处理反爬微信文章.py" />
       </list>
     </option>
   </component>
@@ -184,10 +199,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="172" />
-    <option name="y" value="106" />
-    <option name="width" value="1544" />
-    <option name="height" value="955" />
+    <option name="x" value="217" />
+    <option name="y" value="58" />
+    <option name="width" value="1498" />
+    <option name="height" value="903" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -195,6 +210,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -206,7 +222,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -227,7 +242,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.requests+正则爬猫眼电影top100">
+  <component name="RunManager" selected="Python.11">
     <configuration name="爬虫汽车之家新闻" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="爬虫" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -242,6 +257,138 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫汽车之家新闻.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="11" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="爬虫" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\python\untitled\爬虫\第一页微信文章测试.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="使用代理处理反爬微信文章" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="爬虫" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/使用代理处理反爬微信文章.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="蔡徐坤" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="爬虫" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/蔡徐坤.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="蔡徐坤" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="爬虫" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/蔡徐坤.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="爬虫" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="爬虫" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="蔡徐坤" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="爬虫" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/蔡徐坤.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -382,94 +529,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="蔡徐坤" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="爬虫" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/蔡徐坤.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="蔡徐坤" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="爬虫" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/蔡徐坤.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="爬虫" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="爬虫" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="蔡徐坤" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="爬虫" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/蔡徐坤.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="githua" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="爬虫" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -518,9 +577,13 @@
       <item itemvalue="Python.爬虫汽车之家新闻" />
       <item itemvalue="Python.githua" />
       <item itemvalue="Python.requests+正则爬猫眼电影top100" />
+      <item itemvalue="Python.使用代理处理反爬微信文章" />
+      <item itemvalue="Python.11" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.11" />
+        <item itemvalue="Python.使用代理处理反爬微信文章" />
         <item itemvalue="Python.requests+正则爬猫眼电影top100" />
         <item itemvalue="Python.githua" />
         <item itemvalue="Python.爬虫汽车之家新闻" />
@@ -538,18 +601,26 @@
       <option name="presentableId" value="Default" />
       <updated>1549987735072</updated>
     </task>
+    <task id="LOCAL-00001" summary="爬猫眼电影">
+      <created>1556124458311</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1556124458311</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="138" y="85" width="1235" height="764" extended-state="0" />
+    <frame x="174" y="47" width="1198" height="722" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32540357" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34824562" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.261944" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -573,6 +644,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="爬猫眼电影" />
+    <option name="LAST_COMMIT_MESSAGE" value="爬猫眼电影" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/120x90_0_autohomecar__ChcCP1xgX7CAAJ6jAAFLDDl_Ws8824.jpg" />
     <entry file="file://$PROJECT_DIR$/6y5n.jpg" />
@@ -593,17 +668,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/爬虫.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/re.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="261">
+          <caret line="131" selection-start-line="131" selection-end-line="131" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/githua.py">
+    <entry file="file://$PROJECT_DIR$/result.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requests+正则爬猫眼电影top100.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        <state relative-caret-position="183">
+          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1556105449530" expanded="true" signature="152:161" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/拉钩网.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="12" column="67" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -617,6 +706,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/githua.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/爬虫汽车之家新闻.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -627,10 +726,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/re.py">
+    <entry file="file://$PROJECT_DIR$/爬虫.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="131" selection-start-line="131" selection-end-line="131" />
+        <state relative-caret-position="-260">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -644,30 +743,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/拉钩网.py">
+    <entry file="file://$PROJECT_DIR$/11.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="12" column="67" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="8" selection-end-column="20" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1556277726600" expanded="true" signature="1365:1815" ph="..." />
+            <marker date="1556277726600" expanded="true" signature="2867:3039" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/result.txt">
+    <entry file="file://$PROJECT_DIR$/使用代理处理反爬微信文章.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1596" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requests+正则爬猫眼电影top100.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="39" column="14" lean-forward="true" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+        <state relative-caret-position="-1880">
+          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1556105449530" expanded="true" signature="152:161" ph="..." />
-            <marker date="1556105449530" expanded="true" signature="911:1012" ph="..." />
-            <marker date="1556105449530" expanded="true" signature="1029:1034" ph="..." />
+            <marker date="1556278131274" expanded="true" signature="1515:1715" ph="..." />
+            <marker date="1556278131274" expanded="true" signature="2161:2819" ph="..." />
+            <marker date="1556278131274" expanded="true" signature="2847:2848" ph="..." />
+            <marker date="1556278131274" expanded="true" signature="2847:2852" ph="..." />
+            <marker date="1556278131274" expanded="true" signature="3062:4204" ph="..." />
+            <marker date="1556278131274" expanded="true" signature="4215:4673" ph="..." />
           </folding>
         </state>
       </provider>
