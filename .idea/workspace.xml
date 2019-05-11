@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0aea729-73a1-4305-8be0-02089b89b495" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jd.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/爬虫.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫.py" afterDir="false" />
     </list>
@@ -82,12 +80,12 @@
         <counts>
           <entry key="dummy" value="11" />
           <entry key="py" value="9715" />
-          <entry key="txt" value="19" />
+          <entry key="txt" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="30" />
+          <entry key="PLAIN_TEXT" value="48" />
           <entry key="Python" value="9715" />
         </counts>
       </usages-collector>
@@ -108,10 +106,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1957">
+            <state relative-caret-position="-1912">
               <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
               <folding>
                 <element signature="e#25#44#0" expanded="true" />
@@ -149,7 +147,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jd1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2869">
+            <state relative-caret-position="330">
               <caret line="151" column="38" selection-start-line="151" selection-start-column="38" selection-end-line="151" selection-end-column="38" />
               <folding>
                 <element signature="e#712#731#0" expanded="true" />
@@ -160,10 +158,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tb.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
+            <state relative-caret-position="1007">
               <caret line="53" column="31" lean-forward="true" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
@@ -201,8 +199,8 @@
       <find>mode</find>
       <find>Lev</find>
       <find>m</find>
-      <find>pq</find>
       <find>browser</find>
+      <find>pq</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -658,19 +656,26 @@
       <option name="project" value="LOCAL" />
       <updated>1556278411901</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="爬取京东详细商品评论等">
+      <created>1557598590491</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1557598590491</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24865952" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24865952" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38619676" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38619676" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -697,7 +702,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="爬猫眼电影" />
     <MESSAGE value="使用代理处理反爬微信文章" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用代理处理反爬微信文章" />
+    <MESSAGE value="爬取京东详细商品评论等" />
+    <option name="LAST_COMMIT_MESSAGE" value="爬取京东详细商品评论等" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/120x90_0_autohomecar__ChcCP1xgX7CAAJ6jAAFLDDl_Ws8824.jpg" />
@@ -847,16 +853,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1957">
-          <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
-          <folding>
-            <element signature="e#25#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/爬虫.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -877,24 +873,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1007">
+          <caret line="53" column="31" lean-forward="true" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1912">
+          <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
+          <folding>
+            <element signature="e#25#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jd1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2869">
+        <state relative-caret-position="330">
           <caret line="151" column="38" selection-start-line="151" selection-start-column="38" selection-end-line="151" selection-end-column="38" />
           <folding>
             <element signature="e#712#731#0" expanded="true" />
             <marker date="1557501600428" expanded="true" signature="1588:1764" ph="..." />
             <marker date="1557501600428" expanded="true" signature="1786:1793" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="53" column="31" lean-forward="true" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
