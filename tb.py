@@ -35,11 +35,16 @@ def next_page(page_number):
     print('正在翻页%s', page_number)
     time.sleep(3)
     try:
+        # 拿到跳转页面的框
         input = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "#mainsrp-pager > div > div > div > div.form > input")))
+        # 拿到跳转按钮
         submit = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, '#mainsrp-pager > div > div > div > div.form > span.btn.J_Submit')))
+        # 清除里面数字
         input.clear()
+        # 自动输入页面 点击跳转
         input.send_keys(page_number)
         submit.click()
+        # 判断语句是否包含 语气css的字符串
         wait.until(EC.text_to_be_present_in_element((By.CSS_SELECTOR,'#mainsrp-pager > div > div > div > ul > li.item.active > span'),str(page_number)))
         get_products()
     except TimeoutException:
